@@ -27,7 +27,7 @@ jobs:
       
       - name: Build Configuration Package
         run: |
-          crossplane xpkg build --package-root . --verbose
+          crossplane xpkg build --package-root . --ignore=".github/workflows/*" --verbose
 
       - name: Publish Configuration Package
         run: |
