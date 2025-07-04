@@ -27,8 +27,8 @@ jobs:
       
       - name: Build Configuration Package
         run: |
-          crossplane xpgk build --package-root . --verbose
+          crossplane xpkg build --package-root . --verbose
 
       - name: Publish Configuration Package
         run: |
-          crossplane xpgk push "ghcr.io/chrstphfrtz/testeroni-meloni/test:${{ github.ref_name }}" --domain "https://ghcr.io" --verbose
+          crossplane xpkg push "ghcr.io/chrstphfrtz/testeroni-meloni/test:${{ github.ref_name }}" --domain "https://ghcr.io" --verbose
