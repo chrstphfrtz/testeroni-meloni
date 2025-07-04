@@ -31,4 +31,4 @@ jobs:
 
       - name: Publish Configuration Package
         run: |
-          crossplane xpkg push "ghcr.io/chrstphfrtz/testeroni-meloni/test:${{ github.ref_name }}" --verbose
+          crossplane xpkg push "ghcr.io/chrstphfrtz/testeroni-meloni/test:${{ github.ref_name }}" --domain "https://ghcr.io" --verbose
