@@ -1,4 +1,6 @@
 site_name: provider-storage
+site_url: https://chrstphfrtz.github.io/testeroni-meloni/
+
 nav:
   - API:
     - apis/definition.md
