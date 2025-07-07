@@ -39,4 +39,4 @@ jobs:
 
       - name: Publish docs to Github pages
         run: |
-          mkdocs gh-deploy
+          mkdocs gh-deploy --force
