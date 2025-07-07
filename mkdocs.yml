@@ -1,0 +1,8 @@
+site_name: provider-storage
+nav:
+  - API:
+    - apis/definition.md
+plugins:
+  - search
+theme:
+  name: material
