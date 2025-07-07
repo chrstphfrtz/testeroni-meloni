@@ -34,10 +34,11 @@ spec:
                       owner:
                         type: string
                         description: Owner of the bucket.
+                  required:
+                    - name
+                    - owner
                 providerConfig:
                   type: string
               required:
                 - buckets
-                - name
-                - owner
                 - providerConfig
