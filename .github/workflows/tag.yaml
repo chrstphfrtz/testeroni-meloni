@@ -61,5 +61,6 @@ jobs:
           git config --global user.email "github-actions@versioneer.at"
       - name: Publish docs to Github pages
         run: |
+          git fetch --all
           mike set-default latest --allow-undefined
           mike deploy ${{ github.ref_name }} latest --update-alias --push --force
