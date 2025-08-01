@@ -10,7 +10,11 @@ nav:
     - API: reference-guides/api.md
 plugins:
   - search
+  - mike
 markdown_extensions:
   - admonition
 theme:
   name: material
+extra:
+  version:
+    provider: mike
