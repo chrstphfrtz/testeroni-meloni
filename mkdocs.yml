@@ -7,7 +7,7 @@ nav:
   - How-to guides:
     - storage-minio: how-to-guides/storage-minio.md
   - Reference guides:
-    - API: api.md
+    - API: reference-guides/api.md
 plugins:
   - search
 markdown_extensions:
