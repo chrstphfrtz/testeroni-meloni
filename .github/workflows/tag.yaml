@@ -63,4 +63,4 @@ jobs:
         run: |
           git fetch --all
           mike set-default latest --allow-undefined
-          mike deploy ${{ github.ref_name }} latest --update-alias --push --force
+          mike deploy ${{ github.ref_name }} latest --update-alias --push
