@@ -62,4 +62,4 @@ jobs:
       - name: Publish docs to Github pages
         run: |
           mike set-default latest --allow-undefined
-          mike deploy ${{ github.ref_name }} latest --update-alias --push
+          mike deploy ${{ github.ref_name }} latest --update-alias --push --force
